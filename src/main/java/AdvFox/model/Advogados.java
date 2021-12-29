@@ -1,9 +1,14 @@
-package br.edu.ifpb.gugawag.social.model;
+package AdvFox.model;
 
+import java.util.ArrayList;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -19,7 +24,7 @@ public class Advogados {
     private String area;
     private String descricao;
     private String senha;
-
+    
     public Long getId() {
         return id;
     }
@@ -56,6 +61,10 @@ public class Advogados {
         return descricao;
     }
     
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+    
     public String getSenha() {
         return senha;
     }
@@ -63,4 +72,5 @@ public class Advogados {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+    
 }

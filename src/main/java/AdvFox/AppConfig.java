@@ -1,4 +1,4 @@
-package br.edu.ifpb.gugawag.social;
+package AdvFox;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

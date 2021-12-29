@@ -1,8 +1,9 @@
-package br.edu.ifpb.gugawag.social.repositories;
+package AdvFox.repositories;
 
-import br.edu.ifpb.gugawag.social.model.Advogados;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import AdvFox.model.Advogados;
 
 import java.util.List;
 

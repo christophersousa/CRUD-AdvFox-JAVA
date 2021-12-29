@@ -1,10 +1,11 @@
-package br.edu.ifpb.gugawag.social.service;
+package AdvFox.service;
 
-import br.edu.ifpb.gugawag.social.repositories.AdvogadoRepository;
-import br.edu.ifpb.gugawag.social.model.Advogados;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import AdvFox.model.Advogados;
+import AdvFox.repositories.AdvogadoRepository;
 
 import java.util.List;
 
